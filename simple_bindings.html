@@ -2,13 +2,18 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
-	<title>sample.html</title>
+	<title>simple_bindings.html</title>
 	<link rel="stylesheet" href="css/reset.css">
 </head>
-<body id="sample">
+<body id="simple_bindings">
+	
+	<div style="width:900px;margin:50px auto;">
+		<p data-bind="text: name"></p>
+		<p data-bind="text: address"></p>
+	</div>
 
-	<!--雛形-->
 	<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
 	<script type='text/javascript' src='js/knockout-2.1.0.js'></script>
+	<script type="text/javascript" src="js/simpleBindingsViewModel.js"></script>
 </body>
 </html>
