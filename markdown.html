@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>markdown.html</title>
+</head>
+<body id="markdown">
+
+	<h1>knockoutJSとmarkdown.jsでMarkdownエディタ</h1>
+	
+	<h2>Markdown入力</h2>
+	<textarea data-bind="value: textData" style = "width:600px;height:350px;"></textarea>
+	
+	<h2>変換後HTML</h2>
+	<div data-bind = "html: displayHtml" sty;e="width:600px; height:350px; border:1px solid #333;"></div>
+	
+	
+	<script type="text/javascript" src="js/markdown.js"></script>
+	<script type='text/javascript' src='js/knockout-2.1.0.js'></script>
+	<script type='text/javascript' src='js/markdownViewModel.js'></script>
+</body>
+</html>
