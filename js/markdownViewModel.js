@@ -1,4 +1,4 @@
-var markdownViewModel = function () {
+var MarkdownViewModel = function () {
     "use strict";
 
     this.textData = ko.observable('edit markdown');
@@ -8,4 +8,4 @@ var markdownViewModel = function () {
     }, this);
 };
 
-ko.applyBindings(new markdownViewModel());
+ko.applyBindings(new MarkdownViewModel());
